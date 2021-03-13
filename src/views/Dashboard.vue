@@ -1,15 +1,15 @@
 <template>
   <div>
-    <base-header type="gradient-success" 
+    <base-header type="" 
     style="
         min-height: 600px;
-        background-image: url(img/theme/splash.jpg);
+        background-image: url(/img/theme/splash.jpg);
         background-size: cover;
-        background-position: center top;"
+        background-position: center bottom;"
     class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center">
     
       <!-- Mask -->
-      <span class="mask bg-gradient-success opacity-8"></span>
+      <span class="mask bg-gradient-success opacity-5"></span>
       <div class="row">
         <div class="col-lg-12">
           <stats-card
